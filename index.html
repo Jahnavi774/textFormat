@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textUtils</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="#">TextUtils</a></li>
+        <li><a href="#">AboutTextutils</a></li>
+        <!-- <li><a id="darkModeToggle" class="dark-mode-button" href="#">Enable DarkMode</a></li> -->
+    </ul>
+  
+    <h1>Enter Your Text</h1> 
+    <textarea name="typing" id="mybox" cols="150" rows="15" placeholder="Enter text here..."></textarea>
+    <button class="btn Uppercase" id="converToUppercaseButton">Convert to Uppercase</button>
+    <button class="btn Lowercase" id="convertToLowercaseButton">Convert to Lowercase</button>
+    <button class="btn Capitalise" id="capitaliseButton">Capitalise</button>
+    <button class="btn Spaces" id="removeExtraSpacesButton">Remove Extra Spaces</button>
+    <button class="btn NewLines" id="removeNewLinesButton">Remove NewLines</button>
+    <button class="btn Undo" id="undoButton">Undo</button>
+    <button class="btn Redo" id="redoButton">Redo</button>
+    <button class="btn Copy" id="copyButton">Copy Text</button>
+    <button class="btn Clear" id="clearButton">Clear Text</button>
+    <div id="message-container">
+        <p id="messagebar"></p>
+    </div>
+    <h2>Text Summary:-</h2>
+    <div id="textSummary">
+        <p>Characters: <span id="charCount">0</span></p>
+        <p>Words: <span id="wordCount">0</span></p>
+        <p>Lines: <span id="lineCount">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
